@@ -41,6 +41,7 @@ const Footer = () => {
       <Container>
         <Box>
           <Stack
+            className=" justify-center"
             direction="row"
             sx={{
               "& svg": {
