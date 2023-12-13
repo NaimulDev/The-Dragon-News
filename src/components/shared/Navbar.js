@@ -24,7 +24,7 @@ const navItems = [
   },
   {
     route: "Category",
-    pathname: "/category",
+    pathname: "/categories",
   },
   {
     route: "News",
@@ -44,13 +44,13 @@ function Navbar() {
   return (
     <>
       <Header />
-      <AppBar position="static" className="bg-black">
+      <AppBar position="static" className="bg-black text-green-800">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <Image src={logo} width={100} height={100} alt="logo" />
             <Box className="w-full text-center">
               {navItems.map((item) => (
-                <Link key={item} href="item.pathname">
+                <Link key={item} href={item.pathname}>
                   <Button className="text-white">{item.route}</Button>
                 </Link>
               ))}

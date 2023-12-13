@@ -1,3 +1,4 @@
+"use client";
 import {
   Box,
   Card,
@@ -6,19 +7,17 @@ import {
   CardMedia,
   Typography,
 } from "@mui/material";
-import React from "react";
+import Image from "next/image";
+import sideImage from "@/assets/Rectangle 9.png";
 
-const LatestNews = () => {
+const SideBar = () => {
   return (
     <Box className="my-5">
       <Card sx={{ maxWidth: 345 }}>
         <CardActionArea>
-          <CardMedia
-            component="img"
-            height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
-            alt="green iguana"
-          />
+          <CardMedia>
+            <Image src={sideImage} alt="logo" />
+          </CardMedia>
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               Lizard
@@ -34,4 +33,4 @@ const LatestNews = () => {
   );
 };
 
-export default LatestNews;
+export default SideBar;
