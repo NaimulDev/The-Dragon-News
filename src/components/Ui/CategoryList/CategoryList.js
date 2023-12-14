@@ -13,7 +13,9 @@ const CategoryList = async () => {
         <Stack rowGap={1} sx={{ mt: 2.5 }}>
           {allCategories.map((category) => (
             <Button variant="outlined" key={category.id}>
-              <Link href={`/categories/news?category=${category.title}`}>
+              <Link
+                href={`/categories/news?category=${category.title.toLowerCase()}`}
+              >
                 {" "}
                 {category.title}
               </Link>
