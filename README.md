@@ -32,5 +32,5 @@ cd The-Dragon-News-Portal
 npm install
 ```
 
-- [Live Link](#https://the-dragon-news-three.vercel.app/)
-- [Server Link](#https://the-news-portal-server.vercel.app/)
+- **Live Link:** [The Dragon News Portal](https://the-dragon-news-three.vercel.app/)
+- **Server Link:** [The News Portal Server](https://the-news-portal-server.vercel.app/)
