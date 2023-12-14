@@ -15,7 +15,7 @@ The Dragon News Portal is a dynamic news platform built using Next.js and Materi
 
 - Dynamically display news categories
 - View detailed information for each news article on a single page
-- Add your features here...
+- Comming Soon
 
 ## Installation
 
@@ -31,3 +31,6 @@ cd The-Dragon-News-Portal
 # Install dependencies
 npm install
 ```
+
+- [Live Link](#https://the-dragon-news-three.vercel.app/)
+- [Server Link](#https://the-news-portal-server.vercel.app/)
