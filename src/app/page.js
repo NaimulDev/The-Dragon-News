@@ -13,7 +13,7 @@ const HomePage = () => {
           <SideBar />
         </Grid>
       </Grid> */}
-      <div className="grid grid-cols-8 gap-4">
+      <div className="grid grid-cols-8 gap-4 px-14">
         <div className="col-span-6">
           <LatestNews />
         </div>
