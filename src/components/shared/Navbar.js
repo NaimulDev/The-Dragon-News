@@ -45,8 +45,8 @@ function Navbar() {
     <>
       <Header />
       <div className="bg-black">
-        <AppBar position="static" className="bg-black ">
-          <Container maxWidth="xl">
+        <AppBar position="static" className="bg-black text-white">
+          <Container className="bg-black text-white" maxWidth="xl">
             <Toolbar disableGutters>
               <Image src={logo} width={100} height={100} alt="logo" />
               <Box className="w-full text-center">
